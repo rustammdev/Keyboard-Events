@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: rgb(221, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-menu,
+.key,
+.keyCode,
+.code {
+    padding: 8px 12px;
+    border: 1px solid #3e3e3e;
+    background-color: white;
+}
+
+.main-body {
+    display: flex;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.position {
+    
+}
+
+.key::before {
+    content: 'Key';
+    position: fixed;
+    top: 0;
+}
+
+.hidden {
+    display: none;
+}

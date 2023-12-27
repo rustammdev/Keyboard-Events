@@ -31,14 +31,17 @@ body {
     font-weight: bold;
 }
 
-.position {
-    
-}
-
 .key::before {
-    content: 'Key';
-    position: fixed;
-    top: 0;
+    content: 'Key: ';
+    color: rgb(30, 0, 255);
+}
+.keyCode::before {
+    content: 'KeyCode: ';
+    color: rgb(30, 0, 255);
+}
+.code::before {
+    content: 'Code: ';
+    color: rgb(30, 0, 255);
 }
 
 .hidden {
